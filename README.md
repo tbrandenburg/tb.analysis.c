@@ -3,6 +3,10 @@
 Parses a given folder recursively for C and H files and turning their
 AST into a JSON
 
+## Dependencies
+
+- Using JAR from https://github.com/tbrandenburg/tb.parser.c
+
 ## Sample output
 
 ~~~json
