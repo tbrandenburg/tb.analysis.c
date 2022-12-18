@@ -39,7 +39,7 @@ class FileVisitorCAST(FileVisitor):
         except:
             print("[FileVisitorCAST] [Error] Connection to py4j gateway could not be established!")
 
-    def visit(self,isDir,relFilePath,absFilePath,fileName) -> bool:
+    def visit(self,isDir,relFilePath,absFilePath,fileName) -> dict:
         if not isDir:
             if(self.__cp):
                 # Read file
